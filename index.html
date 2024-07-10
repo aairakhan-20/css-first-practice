@@ -1,0 +1,79 @@
+<html>
+<title>CSS webpage</title>
+<head>
+<style>
+body {
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnLtd20rEWQZrOxmflxdRakRte1Njw7O6nPQ&s");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ background-size: cover;
+}
+img {
+  float: right;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+input[type=submit], input[type=reset] {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<h1 style="border: 5px solid yellow;"><center><font size=7 color=white face="Segoe Print">Novell Services Login</center></h1>
+<br>
+<form action="" method="post">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAh8j3CsZg51xDTlq4_zAu49wEOfQgYfrWrA&s" alt="forms" style="width:45%; height:300px; margin-left:15px">
+<table>
+<font size=5 color=white face="Comic Sans MS">
+<tr>
+<td><font size=5 color=white face="Comic Sans MS"><label for="name" required>Username:</label></td>
+<td><input type="text" id="name" class="contact.inputs"></td>
+</tr>
+<tr>
+<td><font size=5 color=white face="Comic Sans MS"><label for="password" required>Password:</label></td>
+<td><input type="password" id="password" class="contact.inputs"></td>
+</tr>
+<tr>
+<td><font size=5 color=white face="Comic Sans MS"><label for="city" required>City of Employment:</label></td>
+<td><input type="text" id="city" name="city" class="contact.inputs"></td>
+</tr>
+<tr>
+<td><font size=5 color=white face="Comic Sans MS">Web server:</td>
+<td><select name="" id="">
+<option value="" disabled selected>--Choose a server--</option>
+<option value="">Apache</option>
+<option value="">Cloudflare</option></td>
+<tr>
+</tr>
+<td><font size=5 color=white face="Comic Sans MS">Please specify your role:</td>
+<td><input type="radio" name="remarks"><font size=5 color=white face="Juice ITC">Admin <br>
+<input type="radio" name="remarks"><font size=5 color=white face="Juice ITC">Engineer <br>
+<input type="radio" name="remarks"><font size=5 color=white face="Juice ITC">Manager <br>
+<input type="radio" name="remarks"><font size=5 color=white face="Juice ITC">Guest <br><td>
+</tr>
+<tr>
+<td><font size=5 color=white face="Comic Sans MS">Single sign-on to the following:</td>
+<td><input type="checkbox" name="signon"><font size=5 color=white face="Juice ITC">Mail <br>
+<input type="checkbox" name="signon"><font size=5 color=white face="Juice ITC">Payroll <br>
+<input type="checkbox" name="signon"><font size=5 color=white face="Juice ITC">Self-service <br></td>
+</tr>
+</table>
+<fieldset><legend>Your Message!</legend><textarea rows="5" cols="60" name="message" placeholder="message" class=".inputs"></textarea></legend></fieldset>
+<center><input type="submit" value="submit">&nbsp; &nbsp;<input type="reset" value="reset"></center>
+</form>
+<hr>
+<center><font size="5"><a href="#top">Top to the page</a></center>
+</body>
+</html>
